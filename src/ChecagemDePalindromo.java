@@ -21,7 +21,7 @@ ana	     TRUE     */
 
 import java.util.Scanner;
 
-public class Desafio {
+public class ChecagemDePalindromo {
 
     public static void main(String[] args) {
 
