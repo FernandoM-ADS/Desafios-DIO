@@ -16,13 +16,13 @@ public class BuscaSequencial {
 
             for (i = 0; i < elementos.length; i++) {
                 if (elementos[i] == num) {
-                    System.out.println("Achei " + num + "na posicao " + i);
+                    System.out.println("Achei " + num + " na posicao " + i);
                     break;
                 }
             }
 
             if( i == elementos.length) {
-                System.out.println("Numero " + num + "nao encontrado!");
+                System.out.println("Numero " + num + " nao encontrado!");
             }
     }
 }
