@@ -11,6 +11,7 @@
 // Por outro lado, para imprimir suas saídas, utilize System.out.print ou System.out.println.
 
 import java.util.Scanner;
+
 public class SomandoMultiplos {
         public static void main(String[] args) {
 
