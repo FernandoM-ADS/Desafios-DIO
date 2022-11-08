@@ -32,6 +32,16 @@ public class ValidParentheses {
 
     public static boolean ehValido(String s) {
         //TODO: implemente a lógica de caracteres válidos e retorne se a string é valida ou não.
-    }
+      
+        String[] letras = s.split("");
+        String[] tags = {"(",")","{","}","[","]"};
+        boolean b = false;
 
+        for(int i = 0; i < tags.length; i++){
+            if (letras[0].equals(tags[i]) && letras[letras.length-1].equals(tags[i + 1])){
+                b = true ;
+            } 
+        }
+        return b;
+    }    
 }
